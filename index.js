@@ -11,7 +11,7 @@ app.get('/cool-new-feature', (req, res) => {
 })
 
 app.get('/another-feature', (req, res) => {
-  res.send('Hello from another feature!')
+  res.send('Hello from another feature! - super important hotfix here')
 })
 
 app.get('/feature-3', (req, res) => {
