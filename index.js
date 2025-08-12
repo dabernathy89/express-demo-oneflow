@@ -11,7 +11,7 @@ app.get('/cool-new-feature', (req, res) => {
 })
 
 app.get('/another-feature', (req, res) => {
-  res.send('Hello from another feature! - super important hotfix here')
+  res.send('Hello from another feature!')
 })
 
 app.listen(port, () => {
