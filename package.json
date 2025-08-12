@@ -9,6 +9,23 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "semantic-release": "^24.0.0",
+    "@semantic-release/commit-analyzer": "^13.0.0"
+  },
+  "release": {
+    "branches": [
+      "release/*",
+      "hotfix/*"
+    ],
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      [
+        "@semantic-release/npm",
+        {
+          "npmPublish": false
+        }
+      ]
+    ]
   }
 }
