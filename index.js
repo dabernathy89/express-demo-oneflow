@@ -22,6 +22,10 @@ app.get('/feature-4', (req, res) => {
   res.send('Hello from another feature!')
 })
 
+app.get('/feature-5', (req, res) => {
+  res.send('Hello from another feature!')
+})
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
