@@ -22,6 +22,18 @@ app.get('/feature-4', (req, res) => {
   res.send('Hello from another feature! - this is hotfix 1.2.1! and 1.2.4!')
 })
 
+app.get('/feature-5', (req, res) => {
+  res.send('Hello from another feature!')
+})
+
+app.get('/feature-6', (req, res) => {
+  res.send('Hello from another feature!')
+})
+
+app.get('/feature-7', (req, res) => {
+  res.send('Hello from another feature!')
+})
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
