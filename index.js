@@ -19,7 +19,7 @@ app.get('/feature-3', (req, res) => {
 })
 
 app.get('/feature-4', (req, res) => {
-  res.send('Hello from another feature! - this is hotfix 1.2.1! and 1.2.4!')
+  res.send('Hello from another feature!')
 })
 
 app.get('/feature-5', (req, res) => {
@@ -31,7 +31,7 @@ app.get('/feature-6', (req, res) => {
 })
 
 app.get('/feature-7', (req, res) => {
-  res.send('Hello from another feature!')
+  res.send('Hello from another feature! - hotfix!!!')
 })
 
 app.get('/feature-8', (req, res) => {
