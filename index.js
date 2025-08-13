@@ -19,7 +19,7 @@ app.get('/feature-3', (req, res) => {
 })
 
 app.get('/feature-4', (req, res) => {
-  res.send('Hello from another feature! - this is hotfix 1.2.1!')
+  res.send('Hello from another feature!')
 })
 
 app.listen(port, () => {
